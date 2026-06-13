@@ -61,3 +61,51 @@ Modulance Engineering
 Modulance QA
 Modulance Operations
 The goal is successful customer validation within five weeks.
+
+**************************NEW**************************
+
+The previous output is corrupted.
+
+Do not include:
+
+* tables
+* field/value layouts
+* dependency matrices
+* assessment sections
+* markdown tables
+
+Output only a hierarchical plan.
+
+Format exactly:
+
+# Work Package: <name>
+
+## Sprint: <name>
+
+### Task: <unique task id>
+
+Description:
+Deliverable:
+Estimated Effort:
+Required Capability:
+Dependencies:
+Verification Criteria:
+
+Repeat for all tasks.
+
+Rules:
+
+1. Plain text only.
+2. No tables.
+3. No field/value grids.
+4. No repeated sections.
+5. No dependency matrix.
+6. No reporting sections.
+7. No assessment narrative.
+8. Every task appears exactly once.
+9. Every task has a unique ID.
+10. Preserve all work from the assessment.
+
+Output only the executable plan.
+
+
