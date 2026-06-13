@@ -1520,6 +1520,8 @@ Risk if not completed
 Readiness Work Breakdown Structure
 Split all remaining work into three levels:
 
+<!-- START_EXECUTABLE_PLAN -->
+
 Level 1 — Work Package
 
 Examples:
@@ -1811,6 +1813,7 @@ WP7-S1	Customer Org Provisioning	Create real customer org in xxx.ai with AI conf
 WP7-S2	Customer JWT Verification	Run T-JWT-1 through T-JWT-6 with real customer credentials	Customer JWT accepted by Modulance
 WP7-S3	Audit Events	Wire 5 audit event types	Customer actions are traceable
 WP7-S4	Customer Access Grant	Deliver credentials; verify first project creation	Customer validation begins
+
 Level 3 — Tasks
 WP1-S1: XXX.ai Minimum Endpoints
 Task	Effort	Blocking Dependencies
@@ -1934,6 +1937,9 @@ Fix any failing transitive test	Variable	Above
 Re-run after fixes	0.5 pd	Above
 WP6-S3: Internal Two-Org Validation
 Task	Effort	Blocking Dependencies
+
+<!-- END_EXECUTABLE_PLAN -->
+
 Restore week4-baseline snapshot; verify Org A intact, Org B empty	0.5 pd	WP5-S3 complete; WP1-S2 both JWTs valid
 Run V-VIS-1 through V-VIS-10 (cross-org visibility)	1 pd	Above
 Run V-MUT-1 through V-MUT-9 (cross-org mutation)	1 pd	WP3-S1 line 181 patch reviewed and merged
