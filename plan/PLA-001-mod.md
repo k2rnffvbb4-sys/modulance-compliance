@@ -536,6 +536,8 @@ Current status of gate: 0 of 17 conditions met.
 
 Governing rule: No real customer access is allowed until all 8 Week 4 exit criteria pass in full.
 
+<!-- END_EXECUTABLE_PLAN -->
+
 11. Overall Assessment
 Confidence: 62%
 Customer validation can begin in 5 weeks with 62% confidence under current conditions.
