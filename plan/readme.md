@@ -108,4 +108,113 @@ Rules:
 
 Output only the executable plan.
 
+**************************NEW**************************
+
+Use the existing 5-Week Customer Validation Readiness Assessment as the source.
+
+Do not perform a new assessment.
+
+Do not add new work.
+
+Do not remove work.
+
+Do not summarize.
+
+Transform the assessment into a clean executable delivery plan.
+
+Audience:
+
+* Modulance Engineering
+* Modulance QA
+* Modulance Operations
+
+Goal:
+Successful customer validation within five weeks.
+
+Output Structure
+
+Work Package
+
+Work Package Code:
+Work Package Name:
+Objective:
+Expected Outcome:
+
+Sprint
+
+Sprint Code:
+Sprint Name:
+Objective:
+Expected Outcome:
+
+Task
+
+Task ID:
+Task Title:
+Description:
+Deliverable:
+Estimated Effort:
+Required Capability:
+Dependencies:
+Verification Criteria:
+
+Required Hierarchy
+
+Work Package
+└── Sprint
+└── Task
+
+Example
+
+Work Package Code: WP-1
+Work Package Name: Identity & Access
+
+Sprint Code: WP1-S1
+Sprint Name: XXX.ai Minimum Endpoints
+
+Task ID: T-1.1.1
+Task Title: Implement POST /auth/login
+
+Task ID: T-1.1.2
+Task Title: Implement GET /.well-known/jwks.json
+
+Task ID: T-1.1.3
+Task Title: Implement GET /api/orgs/:organizationId/ai-config
+
+Rules
+
+1. Every Work Package must have a unique Work Package Code.
+2. Every Sprint must have a unique Sprint Code.
+3. Every Task must have a unique Task ID.
+4. Every Sprint belongs to exactly one Work Package.
+5. Every Task belongs to exactly one Sprint.
+6. Preserve all implementation work from the assessment.
+7. Preserve all validation work from the assessment.
+8. Preserve all onboarding work from the assessment.
+9. Preserve dependencies.
+10. Preserve verification criteria.
+11. Preserve estimated effort.
+12. Preserve required capability.
+13. Preserve critical-path work.
+14. Do not output dependency matrices.
+15. Do not output assessment narrative.
+16. Do not output risk sections.
+17. Do not output executive summaries.
+18. Do not output reporting sections.
+19. Do not output confidence scoring.
+
+Formatting Rules
+
+* Plain text only.
+* No markdown tables.
+* No field/value tables.
+* No matrices.
+* No duplicated content.
+* No repeated tasks.
+* No repeated sprints.
+* No repeated work packages.
+
+Output only the executable delivery plan.
+
+
 
